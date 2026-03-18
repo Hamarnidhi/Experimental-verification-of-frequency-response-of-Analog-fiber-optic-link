@@ -4,8 +4,6 @@
 ## Aim
 To study a 660nm & 950nm Fiber Analog Link and to analyze the frequency response of the phototransistor detector. The experiment investigates the relationship between the input signal and the received signal.
 
----
-
 ## Equipment Required
 - Link-B Kit with power supply  
 - Patch chords  
@@ -33,10 +31,7 @@ Fiber optic links can transmit both digital and analog signals. A fiber optic li
 - Converts optical energy into electrical signals.  
 - Detector used: **SFH350V (Phototransistor Detector)**.  
 - Responsivity: ~0.8 mA/10 µW at 660nm.  
-- Bandwidth: ~300 kHz (limited by response time).  
-- Output voltage is proportional to incident optical power and replicates transmitted signal.
 
----
 
 ## Procedure
 1. Connect power supply to Link-B kit and switch ON.  
@@ -55,28 +50,15 @@ Fiber optic links can transmit both digital and analog signals. A fiber optic li
 8. Vary input frequency and record detected signal amplitude.  
 9. Plot detected signal vs. frequency to determine **3 dB bandwidth**.  
 10. Switch SW9 → TX2, JP7 → +12V.  
-11. Replace fiber connection to SFH450V (950nm LED).  
-12. Observe detected signal at **ANALOG OUT** on oscilloscope.  
-
----
 
 ## Tabulation
 
-| Frequency (Hz) | Input Amplitude (Vi) | Output Amplitude (Vo) | Gain (Vo/Vi) | Gain (dB) |
-|----------------|-----------------------|------------------------|--------------|-----------|
-|                |                       |                        |              |           |
-
----
-### TABULATION 
-
-![WhatsApp Image 2026-02-13 at 7 19 04 PM](https://github.com/user-attachments/assets/cd0abe6a-90fe-45fb-b397-61e55399292e)
+<img width="1562" height="1600" alt="image" src="https://github.com/user-attachments/assets/5aeb1bae-1a1e-4fcc-8cd0-7e07569c78ce" />
 
 
 ## Model Graph
-- Plot **Gain (dB)** vs. **Frequency (Hz)**.  
-- Identify the **3 dB down point** to determine bandwidth.  
+![IMG_20260318_110811961](https://github.com/user-attachments/assets/b0116422-2920-47e4-b783-8c1ca0537d60)
 
----
 
 ## Result
 The frequency response of the phototransistor detector was studied. The 3 dB bandwidth was determined from the gain vs. frequency plot for both 660nm and 950nm fiber analog links.
